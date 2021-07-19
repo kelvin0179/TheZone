@@ -54,6 +54,8 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use("/", require("./routes/login"));
+
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, console.log(`Server is running on PORT : ${PORT}`));
