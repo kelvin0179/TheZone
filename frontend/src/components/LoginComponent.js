@@ -35,8 +35,8 @@ class Login extends Component {
                                     placeholder="Enter Your Password"></Input>
                             </FormGroup>
                             <FormGroup style={{ marginTop: 12 }}>
-                                <Label for="password1" style={{ marginBottom: 5 }}>Confirm Password</Label>
-                                <Input type="password" name="password1" id="password1"
+                                <Label for="password2" style={{ marginBottom: 5 }}>Confirm Password</Label>
+                                <Input type="password" name="password2" id="password2"
                                     placeholder="Confirm Your Password"></Input>
                             </FormGroup>
                             <FormGroup style={{ marginTop: 12 }}>
